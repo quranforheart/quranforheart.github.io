@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuranForHeart</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav>
+    <div><strong>QuranForHeart</strong></div>
+    <div>
+      <a href="#why">Why Quran?</a>
+      <a href="#themes">Themes</a>
+      <a href="#try">Try a Verse</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to QuranForHeart</h2>
+    <p>Discover the message of the Quran in a peaceful, respectful, and open-minded way. Whether you're curious, skeptical, or simply seeking wisdom — you're welcome here.</p>
+  </section>
+
+  <section id="why">
+    <h2>Why Read the Quran?</h2>
+    <p>The Quran is not just a religious text; it's a guide for reflection, justice, mercy, and purpose. It invites everyone — regardless of background — to think deeply, question sincerely, and find personal meaning.</p>
+  </section>
+
+  <section id="themes">
+    <h2>Key Themes in the Quran</h2>
+    <ul>
+      <li><strong>Peace:</strong> The Quran promotes peace with self, others, and the Creator.</li>
+      <li><strong>Mercy:</strong> Repeatedly, God is described as "The Most Merciful".</li>
+      <li><strong>Justice:</strong> Stand firm in justice, even against yourself or loved ones (4:135).</li>
+      <li><strong>Reflection:</strong> Encourages thinking, not blind following.</li>
+      <li><strong>Hope:</strong> "Despair not of God's mercy..." (39:53)</li>
+    </ul>
+  </section>
+
+  <section id="try">
+    <h2>Try a Verse</h2>
+    <p>Click below to explore a random verse from the Quran with translation:</p>
+    <button onclick="showVerse()">Show Verse</button>
+    <div class="verse-box" id="verseBox">
+      <!-- Verse will appear here -->
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <p><strong>Is the Quran only for Muslims?</strong><br/>
+    No. The Quran presents itself as a message for all people — encouraging everyone to think, reflect, and engage with its words.</p>
+
+    <p><strong>Is the Quran violent?</strong><br/>
+    The Quran discusses conflict — often in historical or self-defense contexts — but overwhelmingly calls for peace, justice, and patience. Verses are often misunderstood when read without context.</p>
+
+    <p><strong>Do I need to read in Arabic?</strong><br/>
+    No. While Arabic is the original language, accurate translations help non-Arabic speakers understand the message clearly.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact / Feedback</h2>
+    <p>Have questions, suggestions, or thoughts? Email us at <a href="mailto:quranforheart@example.com">quranforheart@example.com</a> or reach out through our GitHub repository.</p>
+  </section>
+
+  <footer>
+    © 2025 QuranForHeart — Reflect, Question, Discover.
+  </footer>
+
+  <script>
+    const verses = [
+      { text: "Indeed, with hardship comes ease. — 94:6", ref: "Surah Al-Inshirah" },
+      { text: "Whoever kills a soul... it is as if he had slain mankind entirely. — 5:32", ref: "Surah Al-Ma'idah" },
+      { text: "And We have not sent you, [O Muhammad], except as a mercy to the worlds. — 21:107", ref: "Surah Al-Anbiya" },
+      { text: "Call to the way of your Lord with wisdom and good instruction. — 16:125", ref: "Surah An-Nahl" },
+      { text: "Say, 'Are those who know equal to those who do not know?' — 39:9", ref: "Surah Az-Zumar" }
+    ];
+    function showVerse() {
+      const random = verses[Math.floor(Math.random() * verses.length)];
+      document.getElementById("verseBox").innerHTML = `<p><em>${random.text}</em><br/><small>${random.ref}</small></p>`;
+    }
+  </script>
+
+</body>
+</html>
