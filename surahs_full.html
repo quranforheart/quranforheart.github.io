@@ -1,48 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Brief Background of Each Surah – Quran For Heart</title>
-  <meta name="description" content="Brief introductions to all 114 Surahs of the Quran with links to The Clear Quran for reading.">
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f8fafb; }
-    header { background:#2c3e50; padding:10px; }
-    nav { display:flex; justify-content:center; gap:15px; }
-    nav a { color:#fff; text-decoration:none; font-weight:bold; }
-    nav a:hover { text-decoration:underline; }
-    main { max-width:1000px; margin:auto; padding:1.5rem; }
-    h1 { color:#2c3e50; text-align:center; }
-    .surah { background:#fff; margin-bottom:1rem; padding:1rem; border-radius:8px; }
-    .surah h2 { margin:0; color:#3b7ddd; }
-    .surah p { margin:0.5rem 0; }
-    .read-link { display:inline-block; margin-top:5px; font-weight:bold; }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>All 114 Surahs – Background & Links | Quran For Heart</title>
+<meta name="description" content="Browse all 114 Surahs of the Quran with brief backgrounds and direct links to The Clear Quran translation for each chapter.">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<style>
+  :root{
+    --brand:#2c3e50;
+    --link:#3b7ddd;
+    --bg:#f8fafb;
+    --card:#ffffff;
+    --muted:#6b7280;
+  }
+  html { scroll-behavior: smooth; }
+  body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:var(--bg); color:#111; line-height:1.65; }
+  header { background:var(--brand); color:#fff; padding:1.5rem 1rem; text-align:center; }
+  header h1 { margin:0 0 .25rem; font-size:1.8rem; }
+  header p { margin:.25rem 0 0; color:#e5e7eb; }
+  .wrap { max-width:1100px; margin:0 auto; padding:1rem; }
+  .toc { background:#eef3ff; border:1px solid #dde6ff; border-radius:12px; padding:1rem; margin:1rem 0 1.25rem; }
+  .toc h2 { margin:.2rem 0 .6rem; font-size:1.1rem; color:#1f2a44; }
+  .toc .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(52px,1fr)); gap:.35rem; }
+  .toc a{ display:block; background:#fff; border:1px solid #e5e7eb; border-radius:8px; padding:.45rem .2rem; text-align:center; font-size:.9rem; text-decoration:none; color:var(--link); }
+  .toc a:hover{ border-color:#c7d2fe; background:#f8fbff; }
+  section.surah { background:var(--card); border:1px solid #e5e7eb; border-radius:12px; padding:1rem; margin:.8rem 0; }
+  section.surah h2 { margin:.1rem 0 .35rem; font-size:1.15rem; color:var(--brand); }
+  .meta { color:var(--muted); font-size:.95rem; margin:.15rem 0 .35rem; }
+  .surah-link { display:inline-block; margin-top:.25rem; font-weight:600; color:var(--link); text-decoration:none; }
+  .surah-link:hover { text-decoration:underline; }
+  .top { position:fixed; right:14px; bottom:16px; border:none; background:var(--brand); color:#fff; padding:.6rem .75rem; border-radius:999px; font-size:1rem; cursor:pointer; display:none; }
+  footer { text-align:center; color:#6b7280; padding:2rem .5rem 2.5rem; font-size:.95rem; }
+</style>
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="surahs_full.html">Surah Backgrounds</a>
-    </nav>
-  </header>
+<header id="top">
+  <h1>All 114 Surahs – Background & Links</h1>
+  <p>Brief context for every Surah, plus direct links to read each chapter on The Clear Quran.</p>
+</header>
 
-  <main>
-    <h1>Brief Background of Each Surah</h1>
-
-    <div class="surah">
-      <h2>1. Al-Fatiha (The Opening)</h2>
-      <p>Known as the "Essence of the Quran," it is a short chapter of seven verses recited in every prayer, summarizing the core themes of worship, guidance, and mercy.</p>
-      <a class="read-link" href="https://online.theclearquran.org" target="_blank">Read on The Clear Quran</a>
+<main class="wrap">
+  <!-- Quick jump table of contents -->
+  <div class="toc" aria-labelledby="toc-title">
+    <h2 id="toc-title">Quick Jump</h2>
+    <div class="grid">
+      <a href="#surah1">1</a><a href="#surah2">2</a><a href="#surah3">3</a><a href="#surah4">4</a><a href="#surah5">5</a><a href="#surah6">6</a><a href="#surah7">7</a><a href="#surah8">8</a><a href="#surah9">9</a><a href="#surah10">10</a>
+      <a href="#surah11">11</a><a href="#surah12">12</a><a href="#surah13">13</a><a href="#surah14">14</a><a href="#surah15">15</a><a href="#surah16">16</a><a href="#surah17">17</a><a href="#surah18">18</a><a href="#surah19">19</a><a href="#surah20">20</a>
+      <a href="#surah21">21</a><a href="#surah22">22</a><a href="#surah23">23</a><a href="#surah24">24</a><a href="#surah25">25</a><a href="#surah26">26</a><a href="#surah27">27</a><a href="#surah28">28</a><a href="#surah29">29</a><a href="#surah30">30</a>
+      <a href="#surah31">31</a><a href="#surah32">32</a><a href="#surah33">33</a><a href="#surah34">34</a><a href="#surah35">35</a><a href="#surah36">36</a><a href="#surah37">37</a><a href="#surah38">38</a><a href="#surah39">39</a><a href="#surah40">40</a>
+      <a href="#surah41">41</a><a href="#surah42">42</a><a href="#surah43">43</a><a href="#surah44">44</a><a href="#surah45">45</a><a href="#surah46">46</a><a href="#surah47">47</a><a href="#surah48">48</a><a href="#surah49">49</a><a href="#surah50">50</a>
+      <a href="#surah51">51</a><a href="#surah52">52</a><a href="#surah53">53</a><a href="#surah54">54</a><a href="#surah55">55</a><a href="#surah56">56</a><a href="#surah57">57</a><a href="#surah58">58</a><a href="#surah59">59</a><a href="#surah60">60</a>
+      <a href="#surah61">61</a><a href="#surah62">62</a><a href="#surah63">63</a><a href="#surah64">64</a><a href="#surah65">65</a><a href="#surah66">66</a><a href="#surah67">67</a><a href="#surah68">68</a><a href="#surah69">69</a><a href="#surah70">70</a>
+      <a href="#surah71">71</a><a href="#surah72">72</a><a href="#surah73">73</a><a href="#surah74">74</a><a href="#surah75">75</a><a href="#surah76">76</a><a href="#surah77">77</a><a href="#surah78">78</a><a href="#surah79">79</a><a href="#surah80">80</a>
+      <a href="#surah81">81</a><a href="#surah82">82</a><a href="#surah83">83</a><a href="#surah84">84</a><a href="#surah85">85</a><a href="#surah86">86</a><a href="#surah87">87</a><a href="#surah88">88</a><a href="#surah89">89</a><a href="#surah90">90</a>
+      <a href="#surah91">91</a><a href="#surah92">92</a><a href="#surah93">93</a><a href="#surah94">94</a><a href="#surah95">95</a><a href="#surah96">96</a><a href="#surah97">97</a><a href="#surah98">98</a><a href="#surah99">99</a><a href="#surah100">100</a>
+      <a href="#surah101">101</a><a href="#surah102">102</a><a href="#surah103">103</a><a href="#surah104">104</a><a href="#surah105">105</a><a href="#surah106">106</a><a href="#surah107">107</a><a href="#surah108">108</a><a href="#surah109">109</a><a href="#surah110">110</a>
+      <a href="#surah111">111</a><a href="#surah112">112</a><a href="#surah113">113</a><a href="#surah114">114</a>
     </div>
+  </div>
 
-    <div class="surah">
-      <h2>2. Al-Baqarah (The Cow)</h2>
-      <p>The longest Surah in the Quran, covering a wide range of topics including faith, law, guidance, and the story of the Children of Israel.</p>
-      <a class="read-link" href="https://online.theclearquran.org" target="_blank">Read on The Clear Quran</a>
-    </div>
+  <!-- Surah 1–10 -->
+  <section class="surah" id="surah1">
+    <h2>1. Al-Fātiḥah (The Opening) الفاتحة</h2>
+    <p class="meta">Opening prayer for guidance, mercy, and the straight path; centerpiece of Muslim prayer.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/1" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
 
-    <!-- Repeat for all 114 Surahs -->
-  </main>
+  <section class="surah" id="surah2">
+    <h2>2. Al-Baqarah (The Cow) البقرة</h2>
+    <p class="meta">Longest chapter: faith, law, spiritual discipline, stories of Adam, Abraham, and the Children of Israel.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/2" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
+
+  <section class="surah" id="surah3">
+    <h2>3. Āl ʿImrān (The Family of Imran) آل عمران</h2>
+    <p class="meta">Unity of God’s message, steadfastness after trials, and accounts of Mary and Jesus.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/3" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
+
+  <section class="surah" id="surah4">
+    <h2>4. An-Nisā’ (The Women) النساء</h2>
+    <p class="meta">Justice, family ethics, inheritance, protection of the vulnerable, and communal responsibility.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/4" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
+
+  <section class="surah" id="surah5">
+    <h2>5. Al-Mā’idah (The Table Spread) المائدة</h2>
+    <p class="meta">Covenants, lawful and unlawful, relations with People of the Book, and moral accountability.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/5" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
+
+  <section class="surah" id="surah6">
+    <h2>6. Al-Anʿām (The Cattle) الأنعام</h2>
+    <p class="meta">Pure monotheism, signs in creation, guidance vs. superstition, rejecting idolatry.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/6" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
+
+  <section class="surah" id="surah7">
+    <h2>7. Al-Aʿrāf (The Heights) الأعراف</h2>
+    <p class="meta">Narratives of prophets, Adam and Iblis, and lessons from past nations about obedience and pride.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/7" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
+
+  <section class="surah" id="surah8">
+    <h2>8. Al-Anfāl (The Spoils of War) الأنفال</h2>
+    <p class="meta">Unity, discipline, and ethics in conflict; lessons from the Battle of Badr.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/8" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
+
+  <section class="surah" id="surah9">
+    <h2>9. At-Tawbah (Repentance) التوبة</h2>
+    <p class="meta">Accountability, repentance, treaties, and exposing hypocrisy; the only chapter without the basmala.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/9" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
+
+  <section class="surah" id="surah10">
+    <h2>10. Yūnus (Jonah) يونس</h2>
+    <p class="meta">Signs, patience in calling to truth, and the story of Prophet Jonah’s people who believed.</p>
+    <a class="surah-link" href="https://online.theclearquran.org/surah/10" target="_blank" rel="noopener">Read on The Clear Quran</a>
+  </section>
+
+  <!-- Surah 11–20 -->
+  <section class="surah" id="surah11"><h2>11. Hūd هود</h2><p class="meta">Accounts of Noah, Hūd, Ṣāliḥ, Abraham, Lot, Shuʿayb, and Moses—steadfastness amid denial.</p><a class="surah-link" href="https://online.theclearquran.org/surah/11" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah12"><h2>12. Yūsuf (Joseph) يوسف</h2><p class="meta">A complete narrative of Joseph—betrayal, patience, trust, forgiveness, and divine wisdom.</p><a class="surah-link" href="https://online.theclearquran.org/surah/12" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah13"><h2>13. Ar-Raʿd (The Thunder) الرعد</h2><p class="meta">God’s power, precise knowledge, and the certainty of revelation; patience for the steadfast.</p><a class="surah-link" href="https://online.theclearquran.org/surah/13" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah14"><h2>14. Ibrāhīm (Abraham) إبراهيم</h2><p class="meta">Gratitude vs. ingratitude, Abraham’s prayers, and the enduring guidance of revelation.</p><a class="surah-link" href="https://online.theclearquran.org/surah/14" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah15"><h2>15. Al-Ḥijr الحجر</h2><p class="meta">Preservation of the Quran, creation of humankind, and consequences of denial.</p><a class="surah-link" href="https://online.theclearquran.org/surah/15" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah16"><h2>16. An-Naḥl (The Bee) النحل</h2><p class="meta">Blessings, gratitude, and inviting to God with wisdom and beautiful preaching.</p><a class="surah-link" href="https://online.theclearquran.org/surah/16" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah17"><h2>17. Al-Isrāʾ (Night Journey) الإسراء</h2><p class="meta">The Night Journey, ethics, duty to parents, justice, and the Quran as guidance.</p><a class="surah-link" href="https://online.theclearquran.org/surah/17" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah18"><h2>18. Al-Kahf (The Cave) الكهف</h2><p class="meta">Trials of faith, wealth, knowledge, and power: People of the Cave, Moses & Khidr, Dhul-Qarnayn.</p><a class="surah-link" href="https://online.theclearquran.org/surah/18" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah19"><h2>19. Maryam (Mary) مريم</h2><p class="meta">Stories of Zachariah, Mary, Jesus, Abraham, and Moses; God’s mercy and compassion.</p><a class="surah-link" href="https://online.theclearquran.org/surah/19" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah20"><h2>20. Ṭā-Hā طه</h2><p class="meta">Moses’ mission, solace to the Prophet, and the power of sincere prayer and patience.</p><a class="surah-link" href="https://online.theclearquran.org/surah/20" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <!-- Surah 21–30 -->
+  <section class="surah" id="surah21"><h2>21. Al-Anbiyā’ (The Prophets) الأنبياء</h2><p class="meta">The nearness of the Hour and consistent message across prophets—mercy and responsibility.</p><a class="surah-link" href="https://online.theclearquran.org/surah/21" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah22"><h2>22. Al-Ḥajj (Pilgrimage) الحج</h2><p class="meta">Pilgrimage rites, purpose of devotion, and permission to defend the oppressed.</p><a class="surah-link" href="https://online.theclearquran.org/surah/22" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah23"><h2>23. Al-Mu’minūn (The Believers) المؤمنون</h2><p class="meta">Qualities of true believers, creation stages, and the certainty of resurrection.</p><a class="surah-link" href="https://online.theclearquran.org/surah/23" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah24"><h2>24. An-Nūr (The Light) النور</h2><p class="meta">Social ethics, incident of slander, modesty, and the famous “Light Verse.”</p><a class="surah-link" href="https://online.theclearquran.org/surah/24" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah25"><h2>25. Al-Furqān (The Criterion) الفرقان</h2><p class="meta">Truth vs. falsehood and the noble traits of “the servants of the Most Merciful.”</p><a class="surah-link" href="https://online.theclearquran.org/surah/25" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah26"><h2>26. Ash-Shuʿarā’ (The Poets) الشعراء</h2><p class="meta">Prophetic narratives and reassurance that poetry and mockery cannot undermine truth.</p><a class="surah-link" href="https://online.theclearquran.org/surah/26" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah27"><h2>27. An-Naml (The Ant) النمل</h2><p class="meta">Solomon’s gifts, the Queen of Sheba, and signs that call to gratitude and tawḥīd.</p><a class="surah-link" href="https://online.theclearquran.org/surah/27" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah28"><h2>28. Al-Qaṣaṣ (The Stories) القصص</h2><p class="meta">Moses’ early life and God’s plan unfolding; the arrogance and downfall of Qārūn.</p><a class="surah-link" href="https://online.theclearquran.org/surah/28" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah29"><h2>29. Al-ʿAnkabūt (The Spider) العنكبوت</h2><p class="meta">Trials distinguish truth from pretense; fragile supports vs. reliance on God.</p><a class="surah-link" href="https://online.theclearquran.org/surah/29" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah30"><h2>30. Ar-Rūm (The Romans) الروم</h2><p class="meta">Prophecy of Rome’s comeback and reminders of God’s signs in history and nature.</p><a class="surah-link" href="https://online.theclearquran.org/surah/30" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <!-- Surah 31–40 -->
+  <section class="surah" id="surah31"><h2>31. Luqmān لقمان</h2><p class="meta">Wise counsel to one’s child: gratitude, humility, prayer, and moral balance.</p><a class="surah-link" href="https://online.theclearquran.org/surah/31" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah32"><h2>32. As-Sajdah (Prostration) السجدة</h2><p class="meta">Creation, resurrection, and the humility of believers who respond to revelation.</p><a class="surah-link" href="https://online.theclearquran.org/surah/32" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah33"><h2>33. Al-Aḥzāb (The Confederates) الأحزاب</h2><p class="meta">The trench siege, social rulings, and honor for the Prophet’s household.</p><a class="surah-link" href="https://online.theclearquran.org/surah/33" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah34"><h2>34. Saba’ سبأ</h2><p class="meta">Gratitude vs. arrogance; the story of Sheba and lessons from David and Solomon.</p><a class="surah-link" href="https://online.theclearquran.org/surah/34" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah35"><h2>35. Fāṭir (Originator) فاطر</h2><p class="meta">God as originator, angels as messengers, and seeking knowledge with humility.</p><a class="surah-link" href="https://online.theclearquran.org/surah/35" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah36"><h2>36. Yā-Sīn يس</h2><p class="meta">Core message of the Quran; parable of the town’s messengers; resurrection and accountability.</p><a class="surah-link" href="https://online.theclearquran.org/surah/36" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah37"><h2>37. Aṣ-Ṣāffāt (Those in Rows) الصافات</h2><p class="meta">Ranks of angels, prophetic trials, and Abraham’s devotion and sacrifice.</p><a class="surah-link" href="https://online.theclearquran.org/surah/37" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah38"><h2>38. Ṣād ص</h2><p class="meta">Lessons from David, Solomon, and Job; patience, repentance, and justice.</p><a class="surah-link" href="https://online.theclearquran.org/surah/38" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah39"><h2>39. Az-Zumar (The Groups) الزمر</h2><p class="meta">Sincere worship, hope in God’s mercy, and fates of the grateful vs. deniers.</p><a class="surah-link" href="https://online.theclearquran.org/surah/39" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah40"><h2>40. Ghāfir (Forgiver) / Al-Mu’min غافر</h2><p class="meta">The believing man from Pharaoh’s court; calling with wisdom and patience.</p><a class="surah-link" href="https://online.theclearquran.org/surah/40" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <!-- Surah 41–50 -->
+  <section class="surah" id="surah41"><h2>41. Fuṣṣilat (Explained In Detail) فصلت</h2><p class="meta">Quranic clarity, creation signs, and steadfastness in the face of rejection.</p><a class="surah-link" href="https://online.theclearquran.org/surah/41" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah42"><h2>42. Ash-Shūrā (Consultation) الشورى</h2><p class="meta">Unity of revelation, mutual consultation, and balanced, principled living.</p><a class="surah-link" href="https://online.theclearquran.org/surah/42" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah43"><h2>43. Az-Zukhruf (Ornaments) الزخرف</h2><p class="meta">Worldly allure vs. true honor through faith; reminders from Moses and Jesus.</p><a class="surah-link" href="https://online.theclearquran.org/surah/43" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah44"><h2>44. Ad-Dukhān (Smoke) الدخان</h2><p class="meta">A warning sign, the decisive night, and Pharaoh’s fate as a lesson.</p><a class="surah-link" href="https://online.theclearquran.org/surah/44" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah45"><h2>45. Al-Jāthiyah (Kneeling) الجاثية</h2><p class="meta">Scripture, signs, and the kneeling of nations on Judgment Day for recompense.</p><a class="surah-link" href="https://online.theclearquran.org/surah/45" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah46"><h2>46. Al-Aḥqāf الأحقاف</h2><p class="meta">People of ʿĀd, kindness to parents, and jinn responding to the Quranic call.</p><a class="surah-link" href="https://online.theclearquran.org/surah/46" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah47"><h2>47. Muḥammad محمد</h2><p class="meta">Striving with ethics, tests of sincerity, and the fate of hypocritical deeds.</p><a class="surah-link" href="https://online.theclearquran.org/surah/47" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah48"><h2>48. Al-Fatḥ (The Victory) الفتح</h2><p class="meta">Treaty of Ḥudaybiyyah, a clear victory, and the pledge of loyalty under the tree.</p><a class="surah-link" href="https://online.theclearquran.org/surah/48" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah49"><h2>49. Al-Ḥujurāt (The Rooms) الحجرات</h2><p class="meta">Community manners: verify news, avoid mockery, reconcile disputes, and honor diversity.</p><a class="surah-link" href="https://online.theclearquran.org/surah/49" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah50"><h2>50. Qāf ق</h2><p class="meta">Vivid reminders of resurrection, God’s nearness, and the truthful record of deeds.</p><a class="surah-link" href="https://online.theclearquran.org/surah/50" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <!-- Surah 51–60 -->
+  <section class="surah" id="surah51"><h2>51. Adh-Dhāriyāt (Winds) الذاريات</h2><p class="meta">Creation as signs, prophetic missions, and the purpose: “to worship Me.”</p><a class="surah-link" href="https://online.theclearquran.org/surah/51" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah52"><h2>52. Aṭ-Ṭūr الطور</h2><p class="meta">Oaths by majestic signs, the fate of deniers, and comfort for the Prophet.</p><a class="surah-link" href="https://online.theclearquran.org/surah/52" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah53"><h2>53. An-Najm (The Star) النجم</h2><p class="meta">Revelation is true; the Prophet does not err; refutation of idol claims.</p><a class="surah-link" href="https://online.theclearquran.org/surah/53" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah54"><h2>54. Al-Qamar (The Moon) القمر</h2><p class="meta">The sign given, past destructions, and the Quran made easy for remembrance.</p><a class="surah-link" href="https://online.theclearquran.org/surah/54" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah55"><h2>55. Ar-Raḥmān (The Most Merciful) الرحمن</h2><p class="meta">Countless favors and balance in creation: “Which of your Lord’s favors will you deny?”</p><a class="surah-link" href="https://online.theclearquran.org/surah/55" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah56"><h2>56. Al-Wāqiʿah (The Event) الواقعة</h2><p class="meta">The inevitable sorting into three groups and reflections on provision and power.</p><a class="surah-link" href="https://online.theclearquran.org/surah/56" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah57"><h2>57. Al-Ḥadīd (Iron) الحديد</h2><p class="meta">Balance between worldly means and spiritual aims; generosity and light for believers.</p><a class="surah-link" href="https://online.theclearquran.org/surah/57" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah58"><h2>58. Al-Mujādilah (The Pleading Woman) المجادلة</h2><p class="meta">Ruling on ẓihār, respectful conduct, and loyalty to God over hostile ties.</p><a class="surah-link" href="https://online.theclearquran.org/surah/58" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah59"><h2>59. Al-Ḥashr (Exile) الحشر</h2><p class="meta">Banu Naḍīr’s exile, unity of believers, and majestic divine names at the end.</p><a class="surah-link" href="https://online.theclearquran.org/surah/59" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah60"><h2>60. Al-Mumtaḥanah (Tested) الممتحنة</h2><p class="meta">Principled relations and the testing of believing women who migrate for faith.</p><a class="surah-link" href="https://online.theclearquran.org/surah/60" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <!-- Surah 61–70 -->
+  <section class="surah" id="surah61"><h2>61. Aṣ-Ṣaff (The Ranks) الصف</h2><p class="meta">Stand firm, match words with deeds, and good news of a messenger named Aḥmad.</p><a class="surah-link" href="https://online.theclearquran.org/surah/61" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah62"><h2>62. Al-Jumuʿah (Friday) الجمعة</h2><p class="meta">Purpose of prophethood, etiquette of Friday prayer, and honoring scripture’s guidance.</p><a class="surah-link" href="https://online.theclearquran.org/surah/62" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah63"><h2>63. Al-Munāfiqūn (Hypocrites) المنافقون</h2><p class="meta">Traits of hypocrisy, empty oaths, and preferring the world over remembrance.</p><a class="surah-link" href="https://online.theclearquran.org/surah/63" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah64"><h2>64. At-Taghābun (Mutual Loss & Gain) التغابن</h2><p class="meta">Belief, accountability, and family/wealth as tests—so remain mindful and fair.</p><a class="surah-link" href="https://online.theclearquran.org/surah/64" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah65"><h2>65. Aṭ-Ṭalāq (Divorce) الطلاق</h2><p class="meta">Detailed divorce procedures, waiting periods, provision, and trust in God’s relief.</p><a class="surah-link" href="https://online.theclearquran.org/surah/65" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah66"><h2>66. At-Taḥrīm التحريم</h2><p class="meta">Private incident, repentance, and drawing lessons from exemplary and warning figures.</p><a class="surah-link" href="https://online.theclearquran.org/surah/66" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah67"><h2>67. Al-Mulk (Sovereignty) الملك</h2><p class="meta">Creation’s purpose, reflection on death/life, and the safety of seeking refuge.</p><a class="surah-link" href="https://online.theclearquran.org/surah/67" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah68"><h2>68. Al-Qalam (The Pen) القلم</h2><p class="meta">The Prophet’s noble character, trial of the garden owners, and standing firm in truth.</p><a class="surah-link" href="https://online.theclearquran.org/surah/68" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah69"><h2>69. Al-Ḥāqqah (The Reality) الحاقة</h2><p class="meta">Certainty of the Last Day, scenes of judgment, and the fate of the arrogant.</p><a class="surah-link" href="https://online.theclearquran.org/surah/69" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah70"><h2>70. Al-Maʿārij (Ascending Ways) المعارج</h2><p class="meta">Human haste vs. the patient traits of the faithful who guard prayer and charity.</p><a class="surah-link" href="https://online.theclearquran.org/surah/70" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <!-- Surah 71–80 -->
+  <section class="surah" id="surah71"><h2>71. Nūḥ نوح</h2><p class="meta">Noah’s persistent call, urging repentance and hope in abundant divine provision.</p><a class="surah-link" href="https://online.theclearquran.org/surah/71" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah72"><h2>72. Al-Jinn الجن</h2><p class="meta">Jinn listening to the Quran, among them believers and deniers, and limits of their knowledge.</p><a class="surah-link" href="https://online.theclearquran.org/surah/72" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah73"><h2>73. Al-Muzzammil المزمل</h2><p class="meta">Night prayer as spiritual training, recitation, and gradual bearing of the mission.</p><a class="surah-link" href="https://online.theclearquran.org/surah/73" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah74"><h2>74. Al-Muddaththir المدثر</h2><p class="meta">“Arise and warn,” purification, patience, and a warning about Saqar.</p><a class="surah-link" href="https://online.theclearquran.org/surah/74" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah75"><h2>75. Al-Qiyāmah (Resurrection) القيامة</h2><p class="meta">Certainty of resurrection, the self-reproaching soul, and proper reception of revelation.</p><a class="surah-link" href="https://online.theclearquran.org/surah/75" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah76"><h2>76. Al-Insān (Man) الإنسان</h2><p class="meta">From a drop to dignity; generous patience; rewards for the righteous in the Garden.</p><a class="surah-link" href="https://online.theclearquran.org/surah/76" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah77"><h2>77. Al-Mursalāt (Emissaries) المرسلات</h2><p class="meta">A series of oaths and warnings; repeated refrain: “Woe that Day to the deniers.”</p><a class="surah-link" href="https://online.theclearquran.org/surah/77" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah78"><h2>78. An-Naba’ (The Great News) النبأ</h2><p class="meta">Creation’s signs and the decisive Day when truth is unveiled completely.</p><a class="surah-link" href="https://online.theclearquran.org/surah/78" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah79"><h2>79. An-Nāziʿāt (Those Who Pluck) النازعات</h2><p class="meta">Moses and Pharaoh, alternate fates, and reflections on creation and return.</p><a class="surah-link" href="https://online.theclearquran.org/surah/79" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah80"><h2>80. ʿAbasa (He Frowned) عبس</h2><p class="meta">A lesson in prioritizing sincere seekers; the Quran’s honored pages.</p><a class="surah-link" href="https://online.theclearquran.org/surah/80" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <!-- Surah 81–90 -->
+  <section class="surah" id="surah81"><h2>81. At-Takwīr التكوير</h2><p class="meta">Cosmic upheaval of the Last Day and the trustworthiness of the Messenger.</p><a class="surah-link" href="https://online.theclearquran.org/surah/81" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah82"><h2>82. Al-Infiṭār الانفطار</h2><p class="meta">The sky split, human accountability, and recording angels witnessing deeds.</p><a class="surah-link" href="https://online.theclearquran.org/surah/82" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah83"><h2>83. Al-Muṭaffifīn المطففين</h2><p class="meta">Condemnation of fraud; Sijjīn and ʾIlliyyīn; joy of the righteous and regret of scoffers.</p><a class="surah-link" href="https://online.theclearquran.org/surah/83" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah84"><h2>84. Al-Inshiqāq الانشقاق</h2><p class="meta">The sky torn, records given right or behind, and the call to prostrate and believe.</p><a class="surah-link" href="https://online.theclearquran.org/surah/84" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah85"><h2>85. Al-Burūj البروج</h2><p class="meta">People of the trench, steadfast faith under persecution, and God’s watchful care.</p><a class="surah-link" href="https://online.theclearquran.org/surah/85" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah86"><h2>86. Aṭ-Ṭāriq الطارق</h2><p class="meta">The piercing night-comer, origin of man, and God’s power over secrets and return.</p><a class="surah-link" href="https://online.theclearquran.org/surah/86" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah87"><h2>87. Al-Aʿlā الأعلى</h2><p class="meta">Praise the Most High; purification brings success; the message aligns with earlier scriptures.</p><a class="surah-link" href="https://online.theclearquran.org/surah/87" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah88"><h2>88. Al-Ghāshiyah الغاشية</h2><p class="meta">Faces humbled or radiant; signs in creation; your role is to remind, not compel.</p><a class="surah-link" href="https://online.theclearquran.org/surah/88" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah89"><h2>89. Al-Fajr الفجر</h2><p class="meta">Lessons from past peoples, the test of wealth, and the tranquil soul invited home.</p><a class="surah-link" href="https://online.theclearquran.org/surah/89" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah90"><h2>90. Al-Balad البلد</h2><p class="meta">The noble city, the steep path of charity, and choosing compassion over pride.</p><a class="surah-link" href="https://online.theclearquran.org/surah/90" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <!-- Surah 91–100 -->
+  <section class="surah" id="surah91"><h2>91. Ash-Shams الشمس</h2><p class="meta">Purifying the soul leads to success; the ruin of Thamūd as a warning.</p><a class="surah-link" href="https://online.theclearquran.org/surah/91" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah92"><h2>92. Al-Layl الليل</h2><p class="meta">Two divergent paths: generosity and taqwā vs. greed and denial.</p><a class="surah-link" href="https://online.theclearquran.org/surah/92" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah93"><h2>93. Aḍ-Ḍuḥā الضحى</h2><p class="meta">Consolation to the Prophet; God has not forsaken you; be kind to the vulnerable.</p><a class="surah-link" href="https://online.theclearquran.org/surah/93" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah94"><h2>94. Ash-Sharḥ / Al-Inshirāḥ الشرح</h2><p class="meta">With hardship comes ease—lifted burdens and a call to renewed devotion.</p><a class="surah-link" href="https://online.theclearquran.org/surah/94" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah95"><h2>95. At-Tīn التين</h2><p class="meta">Humans created in the best form, yet accountable—judgment belongs to God alone.</p><a class="surah-link" href="https://online.theclearquran.org/surah/95" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah96"><h2>96. Al-ʿAlaq العلق</h2><p class="meta">First revelation: “Read!”—knowledge, humility, and resistance to arrogant tyranny.</p><a class="surah-link" href="https://online.theclearquran.org/surah/96" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah97"><h2>97. Al-Qadr القدر</h2><p class="meta">The Night of Decree—better than a thousand months; angels descend with peace.</p><a class="surah-link" href="https://online.theclearquran.org/surah/97" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah98"><h2>98. Al-Bayyinah البينة</h2><p class="meta">Clear proof, purified scripture, and sincere devotion as the core of faith.</p><a class="surah-link" href="https://online.theclearquran.org/surah/98" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah99"><h2>99. Az-Zalzalah الزلزلة</h2><p class="meta">The earth will recount its news and every atom’s weight will be revealed.</p><a class="surah-link" href="https://online.theclearquran.org/surah/99" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah100"><h2>100. Al-ʿĀdiyāt العاديات</h2><p class="meta">Charging steeds as a metaphor for zeal, contrasted with human ingratitude.</p><a class="surah-link" href="https://online.theclearquran.org/surah/100" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <!-- Surah 101–114 -->
+  <section class="surah" id="surah101"><h2>101. Al-Qāriʿah القارعة</h2><p class="meta">The Striker—calamity of the Last Day and the weighing of deeds.</p><a class="surah-link" href="https://online.theclearquran.org/surah/101" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah102"><h2>102. At-Takāthur التكاثر</h2><p class="meta">Rivalry in piling up distracts—until graves are visited and truth is known.</p><a class="surah-link" href="https://online.theclearquran.org/surah/102" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah103"><h2>103. Al-ʿAṣr العصر</h2><p class="meta">Time bears witness: humanity is at loss—except those with faith, deeds, truth, and patience.</p><a class="surah-link" href="https://online.theclearquran.org/surah/103" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah104"><h2>104. Al-Humazah الهمزة</h2><p class="meta">Backbiting and hoarding lead to ruin in the crushing Fire (al-Ḥuṭamah).</p><a class="surah-link" href="https://online.theclearquran.org/surah/104" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah105"><h2>105. Al-Fīl الفيل</h2><p class="meta">God’s protection of the Kaʿbah against the People of the Elephant.</p><a class="surah-link" href="https://online.theclearquran.org/surah/105" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah106"><h2>106. Quraysh قريش</h2><p class="meta">Gratitude for trade security and worship of the Lord of this Sacred House.</p><a class="surah-link" href="https://online.theclearquran.org/surah/106" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah107"><h2>107. Al-Māʿūn الماعون</h2><p class="meta">Empty ritual vs. social kindness—woe to those who neglect the needy.</p><a class="surah-link" href="https://online.theclearquran.org/surah/107" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah108"><h2>108. Al-Kawthar الكوثر</h2><p class="meta">Abundant good granted—so pray to your Lord and sacrifice.</p><a class="surah-link" href="https://online.theclearquran.org/surah/108" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah109"><h2>109. Al-Kāfirūn الكافرون</h2><p class="meta">A clear boundary in worship: “To you your religion, and to me mine.”</p><a class="surah-link" href="https://online.theclearquran.org/surah/109" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah110"><h2>110. An-Naṣr النصر</h2><p class="meta">When help and victory come, glorify and seek forgiveness—mission nearing completion.</p><a class="surah-link" href="https://online.theclearquran.org/surah/110" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah111"><h2>111. Al-Masad / Lahab المسد</h2><p class="meta">Abu Lahab’s doomed hostility—proof of the Quran’s truthfulness.</p><a class="surah-link" href="https://online.theclearquran.org/surah/111" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah112"><h2>112. Al-Ikhlāṣ الإخلاص</h2><p class="meta">Pure monotheism: God is One, Eternal, unmatched, and without equal.</p><a class="surah-link" href="https://online.theclearquran.org/surah/112" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah113"><h2>113. Al-Falaq الفلق</h2><p class="meta">Seeking refuge in the Lord of daybreak from all forms of external harm.</p><a class="surah-link" href="https://online.theclearquran.org/surah/113" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+  <section class="surah" id="surah114"><h2>114. An-Nās الناس</h2><p class="meta">Seeking refuge in the Lord of mankind from the whispering evil within.</p><a class="surah-link" href="https://online.theclearquran.org/surah/114" target="_blank" rel="noopener">Read on The Clear Quran</a></section>
+
+  <footer>
+    Built with ❤️ • Quran For Heart
+  </footer>
+</main>
+
+<button class="top" id="backToTop" title="Back to Top">↑</button>
+
+<script>
+  const btn = document.getElementById('backToTop');
+  window.addEventListener('scroll', () => {
+    btn.style.display = (document.documentElement.scrollTop > 240) ? 'block' : 'none';
+  });
+  btn.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
+</script>
 </body>
 </html>
